@@ -2,6 +2,7 @@
 body {
     display: grid;
     grid-template-columns: auto auto;
+    margin: 30px;
 
     background: #097C87;
 }
@@ -38,8 +39,6 @@ header {
 #islandIntro {
     grid-row: 3 / 4;
     grid-column: 1 / 3;
-
-    display: inline-flex;
 
     background: #A1CCA6;
 }
@@ -105,5 +104,165 @@ header {
 
 #homeFooter {
     grid-row: 5 / 6;
+    grid-column: 1 / 3;
+}
+
+/* Transportation Page */
+#transportHeader {
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+#transHeadInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+#gettingTo {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+
+    background: #A1CCA6;
+}
+
+#gettingAround {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+
+    background: #A1CCA6;
+}
+
+#gettingTo table {
+    table-layout: fixed;
+    width: 90%;
+    height: 90%;
+}
+
+#gettingAround table {
+    table-layout: fixed;
+    width: 90%;
+    height: 90%;
+}
+
+#planeInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+#shipInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+#transportFooter {
+    grid-row: 4 / 5;
+    grid-column: 1 / 3;
+}
+
+/* Lodging Page */
+#lodgingHeader {
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+#lodgingTypes {
+    grid-row: 2 / 4;
+    grid-column: 2 / 3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+
+    background: #A1CCA6;
+}
+
+#hostel {
+    border: solid 3px #000000;
+    padding: 10px;
+}
+
+#hotel {
+    border: solid 3px #000000;
+    padding: 10px;
+}
+
+#bNb {
+    border: solid 3px #000000;
+    padding: 10px;
+}
+
+#resort {
+    border: solid 3px #000000;
+    padding: 10px;
+}
+
+#lodgingFooter {
+    grid-row: 4 / 5;
+    grid-column: 1 / 3;
+}
+
+
+/* FAQs Page */
+#faqsHeader {
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+#faqsAside {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+
+    background: #A1CCA6;
+}
+
+#faqsSection {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+
+    background: #A1CCA6;
+}
+
+#faqsFooter {
+    grid-row: 4 / 5;
     grid-column: 1 / 3;
 }
